@@ -1,0 +1,20 @@
+# Ignora o ambiente virtual do Python
+venv/
+.venv/
+
+# Ignora arquivos de cache do Python
+__pycache__/
+*.pyc
+
+# Ignora arquivos gerados por IDEs
+.vscode/
+.ipynb_checkpoints
+
+# Ignora os arquivos do projeto que são muito grandes ou gerados pelo script
+# Para evitar erros de limite de tamanho no GitHub
+*.npy
+dataset_produtos/
+
+# Opcional: Arquivos de log e outros temporários
+*.log
+*.tmp
